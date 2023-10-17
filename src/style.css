@@ -1,0 +1,115 @@
+body {
+  background-color: #a4ac96;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  margin: 20px auto 100px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+  font-style: normal;
+}
+
+a:link,
+a:visited {
+  color: #595358;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.form-text-input {
+  border-radius: 6px;
+  border: none;
+  padding: 4px 16px;
+  margin-right: 10px;
+}
+
+.submit-button {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: none;
+}
+
+.current-info {
+  color: #595358;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.current-temperature {
+  color: #fff;
+  font-size: 80px;
+}
+
+.temperature-symbol {
+  font-size: 50px;
+  opacity: 0.8;
+}
+
+.current-warning {
+  color: #595358;
+  font-style: italic;
+}
+
+.icon {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", Arial, sans-serif;
+  font-style: normal;
+}
+
+.col-2 {
+  padding-left: 0;
+  width: min-content;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.container-temperatures {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(89, 83, 88, 0.2);
+  opacity: 0.8;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+.dayofweek-weather-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 34px;
+  border-radius: 50%;
+}
+
+.dayofweek {
+  font-style: italic;
+}
+
+.temp-max,
+.temp-min {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.temp-max {
+  color: red;
+}
+.temp-min {
+  color: blue;
+}
